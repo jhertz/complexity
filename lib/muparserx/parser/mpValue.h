@@ -86,9 +86,9 @@ MUP_NAMESPACE_START
     virtual IValue& operator=(const matrix_type &a_vVal) override;
     virtual IValue& operator=(const cmplx_type &val) override;
     virtual IValue& operator=(const char_type *a_szVal);
-    virtual IValue& operator+=(const IValue &val);
-    virtual IValue& operator-=(const IValue &val);
-    virtual IValue& operator*=(const IValue &val);
+    virtual IValue& operator+=(const IValue &val) override;
+    virtual IValue& operator-=(const IValue &val) override;
+    virtual IValue& operator*=(const IValue &val) override;
 
     virtual char_type GetType() const override;
     virtual int_type GetInteger() const override;
