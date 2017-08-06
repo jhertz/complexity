@@ -13,4 +13,6 @@ other than that, its just c++, and should be fairly portable
 # build
 qmake
 
+# license 
 
+MIT
